@@ -1,4 +1,10 @@
-print("This is where the magic starts")
-print("Testing out this bs")
-print("Testing if this is just way, way easier on terminal")
-print("Okay, testing this one last time. Is it save, add, commit, and push?")
+#Goal: To get one caption downloaded and stored to a variable. The latest one, why not? 
+
+import instaloader
+
+
+import instaloader
+test = instaloader.Instaloader()
+acc = input('Enter the Account Username: ')
+test.download_profile(acc, profile_pic_only = False)
+
